@@ -14,9 +14,9 @@ else {
 
 if (ride2PowerOn === true) {
     ride2PowerElement.style.color = "green"
-    ride2PowerElement.textContent = "Power Status: on"
+    ride2PowerElement.textContent = "Power Status: on"      
 }
-else {
+else {                                                  
     ride2PowerElement.style.color = "red"
     ride2PowerElement.textContent = "Power Status: off"
 }
@@ -38,7 +38,7 @@ if (ride4PowerOn === true &&
     ride4SlotMachine(4) == "clover" &&
     ride4SlotMachine(5) == "bowling ball" &&
     ride4SlotMachine(6) == "tiger" &&
-    ride4SlotMachine(7) == "seven"
+    ride4SlotMachine(7) == "seven" 
 ) {
     ride4PowerElement.style.color = "green"
     ride4PowerElement.textContent = "Power Status: on"
